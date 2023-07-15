@@ -1,0 +1,137 @@
+/*===== GOOGLE FONTS =====*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap");
+
+:root {
+  --first-color: rgb(255, 89, 0);
+  --first-color-alt: rgba(255, 89, 0, 0.8);
+  --text-color: rgb(0, 0, 0);
+  --text-color-alt: rgba(0,0,0,0.8);
+  --body-color: rgb(255, 255, 255);
+  --body-color-alt: rgba(255,255,255,0.8);
+}
+
+html{
+    background-color: var(--first-color);
+}
+body{
+    height: 98vh;
+    font-family: "poppins";
+
+}
+
+.bg-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-login{
+    background-color: var(--text-color-alt);
+    width: 500px;
+    height: 400px;
+    min-height: 200px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    display: flex;
+}
+
+.box-login h1{
+    margin-top: 0;
+    text-align: center;
+    font-size: 35px;
+    color: var(--body-color-alt);
+}
+
+.bg-login h1 span{
+    color: var(--first-color-alt);
+}
+
+.box-login h2{
+    padding: 5px;
+    text-align: right;
+    font-size: 15px;
+    color: var(--body-color-alt);
+}
+
+.box-login h3{
+    padding: 5px;
+    font-size: 20px;
+    margin-bottom: -5px;
+    color: var(--body-color-alt);
+}
+
+.bg-login a{
+    color: var(--first-color-alt);
+    text-decoration: none;
+}
+
+.box-email{
+    width: 100%;
+    font-size: 18px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+}
+
+.box-pass{
+    width: 100%;
+    font-size: 18px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background-color: var(--first-color-alt);
+    color: var(--body-color-alt);
+    cursor: pointer;
+    border: none;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 0px 0 160px;
+}
+
+.hasil{
+    border-radius: 5px;
+    background: var(--text-color-alt);
+    color: var(--body-color-alt);
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.pesan{
+    position: absolute;
+    margin-top: -700px;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.back{
+    height: 111.5%;
+    cursor: pointer;
+    margin-top: -20px;
+    margin-left: -20px;
+    margin-right: 10px;
+    background-color: rgba(255,255,255,0.0);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-right: 5px solid var(--first-color);
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    writing-mode: vertical-lr;
+    color: var(--body-color-alt);
+}
+
+.data{
+    width: 100%;
+    height: 100%;
+}
